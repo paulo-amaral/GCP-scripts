@@ -3,6 +3,10 @@
 #Start e Stop na VM conforme horário
 #Author : Paulo Amaral
 
+#CRON - Adjust 
+#00 8 * * 1-5 /tmp/script.sh
+#00 18 * * 1-5 /tmp/script.sh
+
 HORA=$(date +%H%M)
 
 # -GE maior ou igual
